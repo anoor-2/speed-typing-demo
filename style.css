@@ -2,10 +2,19 @@
 * {
     margin: 0;
 }
-body {
-    background-color: #333333;
-    /* font styling here */
 
+@font-face{
+    font-family:'bavista';
+    src:url('fonts/Bavista_Soulare.otf');
+    font-style: normal; 
+}
+
+
+body {
+    background-color: #780000;
+    font-family: "bavista";
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*
@@ -16,7 +25,7 @@ body {
 
 /* allows for content in header (aka intro and stats divs) to be horizontal */
 .header {
-    background-color: #484848;
+    background-color: #c1121f;
     height: 20vh;
     display: flex;
     justify-content: space-between;
@@ -36,14 +45,14 @@ body {
 .instructions {
     padding: 25px;
     color: white;
-    font-size: 24px;
+    font-size: 29px;
 }
 /* changes START button styling */
 .startBtn {
-    background-color: #E98300;
-    color: #333333;
+    background-color: #fdf0d5;
     padding: 10px 40px 10px 40px; /* top right bottom left */
     font-size: 24px;
+    color: #780000;
 }
 
 /* allows for score and time left components to be horizontal */
@@ -60,9 +69,11 @@ body {
     color: white;
     display: flex;
     align-items: center;
+    color: #fdf0d5; 
+    font-size: 30px;
 }
 .score {
-    color: #E98300;
+    color: #780000;
     font-size: 36px;
     margin-left: 15px;
 }
@@ -73,15 +84,17 @@ body {
     color: white;
     display: flex;
     align-items: center;
+    color: #fdf0d5;
+    font-size: 30px; 
 }
 .time {
-    color: #E98300;
+    color: #780000;
     font-size: 36px;
     margin-left: 15px;
 }
 
 /*
- *
+ * 
  * TEST
  *
  */
@@ -92,6 +105,7 @@ body {
     height: 75vh;
     align-content: center;
     text-align: center;
+    /* border: orange solid; */
 }
 /* styles tested word */
 .test {
@@ -99,8 +113,7 @@ body {
     color: white;
 }
 
-/* usage in javascript */
 /* used for correct letters */
 .background {
-    background-color: #E98300;
+    background-color: #DF6C74;
 }

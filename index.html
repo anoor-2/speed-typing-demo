@@ -1,52 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- link stylesheet -->
+    <!-- links stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- stylesheets for Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
 
-    <!-- font styling -->
-
-    <title>Typing Test</title>
+    <!-- creates title for the page  -->
+	<title>Typing Test</title>
 </head>
     <body>
-        <!-- header that stores intro and stats info -->
         <div class="header">
-
-            <!-- left side of the header (intro section) -->
             <div class="intro">
-                <!-- instructions -->
                 <div class="instructions">
-                    <p> Type as many words as you can in a minute! </p>
+                    <p> Type as many words as you can in a minute, you got this </p>
                 </div>
-                <!-- start button -->
-                <div class="btnContainer">
+                <div>
                     <p class="startBtn">START</p>
                 </div>
             </div>
-
-            <!-- right side of the header (stats section) -->
             <div class="stats">
-                <!-- location for the time -->
                 <div class="timeContainer">
                     <p>Time left: </p>
                     <span class="time">60</span>
                 </div>
-
-                <!-- location for the score -->
                 <div class="scoreContainer">
                     <p>Score: </p>
                     <span class="score">0</span>
                 </div>
             </div>
-
         </div>
-
-        <!-- testContainer where the test word appears -->
         <div class="testContainer">
-            <!-- location of the test word -->
             <p class="test"></p>
         </div>
     </body>
-    <!-- link javascript -->
     <script src="script.js"></script>
 </html>
