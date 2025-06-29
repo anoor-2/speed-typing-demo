@@ -58,9 +58,9 @@ function random_word() {
 
     //decreases the size of the word if there's more than 11 words
     if (word.length > 11) {
-    test.style.fontSize = "6.8rem"; // Smaller size for long words
+    test.style.fontSize = "5rem"; // Smaller size for long words
     } else {
-    test.style.fontSize = "11rem"; // Regular size for short words
+    test.style.fontSize = "13rem"; // Regular size for short words
     }
 
     //clears any previous words/characters
@@ -78,6 +78,12 @@ function random_word() {
 
         //changes HTML of the span to show each letter (until the word is spelt)
         span.innerHTML = word[i];
+
+         // HOW DO I FIX THE WEIRD ICONS FOR MY FONTTTTTTTTT
+        //if (["0", ".", "!", ":"].includes(word[i])) {
+           // span.style.fontFamily = "'krinkles', Arial, sans-serif";
+        //}
+
         //allows each span to the test word div (as a child)
         test.appendChild(span);
     }
