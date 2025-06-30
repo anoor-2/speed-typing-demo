@@ -3,22 +3,23 @@
     margin: 0;
 }
 
+
 @font-face{
     font-family:'bavista';
     src:url('fonts/Bavista_Soulare.otf');
     font-style: normal; 
-}
+} 
 
 @font-face{
-    font-family:'krinkles';
-    src:url('fonts/KrinkesRegularPERSONAL.ttf');
+    font-family:'rakoon';
+    src:url('fonts/Rakoon_PersonalUse.ttf');
     font-style: normal; 
 }
 
 
 body {
     background-color: #780000;
-    font-family: "bavista",'krinkles';
+    font-family: "bavista";
     font-weight: 400;
     font-style: normal;
 }
@@ -50,8 +51,9 @@ body {
 /* changes instructions styling */
 .instructions {
     padding: 25px;
-    color: white;
-    font-size: 29px;
+    color: #fdf0d5;
+    font-size: 32px;
+    font-family:'rakoon';
 }
 /* changes START button styling */
 .startBtn {
@@ -59,6 +61,7 @@ body {
     padding: 10px 40px 10px 40px; /* top right bottom left */
     font-size: 24px;
     color: #780000;
+    font-family:'Bavista'
 }
 
 /* allows for score and time left components to be horizontal */
@@ -77,11 +80,13 @@ body {
     align-items: center;
     color: #fdf0d5; 
     font-size: 30px;
+    font-family: 'rakoon'; 
 }
 .score {
     color: #780000;
     font-size: 36px;
     margin-left: 15px;
+    font-family: 'cursive';
 }
 
 /* styles the time left */
@@ -92,11 +97,13 @@ body {
     align-items: center;
     color: #fdf0d5;
     font-size: 30px; 
+    font-family: 'rakoon';
 }
 .time {
     color: #780000;
     font-size: 36px;
     margin-left: 15px;
+    font-family:'cursive';
 }
 
 /*

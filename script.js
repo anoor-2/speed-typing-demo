@@ -79,11 +79,6 @@ function random_word() {
         //changes HTML of the span to show each letter (until the word is spelt)
         span.innerHTML = word[i];
 
-         // HOW DO I FIX THE WEIRD ICONS FOR MY FONTTTTTTTTT
-        //if (["0", ".", "!", ":"].includes(word[i])) {
-           // span.style.fontFamily = "'krinkles', Arial, sans-serif";
-        //}
-
         //allows each span to the test word div (as a child)
         test.appendChild(span);
     }
