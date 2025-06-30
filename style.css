@@ -6,13 +6,13 @@
 
 @font-face{
     font-family:'bavista';
-    src:url('fonts/Bavista_Soulare.otf') format('truetype');
+    src:url('fonts/Bavista_Soulare.otf') /*format('truetype');*/;
     font-style: normal; 
 } 
 
 @font-face{
     font-family:'rakoon';
-    src:url('fonts/Rakoon_PersonalUse.ttf') format('truetype');
+    src:url('fonts/Rakoon_PersonalUse.ttf') /*format('truetype');*/;
     font-style: normal; 
 }
 
