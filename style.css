@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-
+/* WHY IS MY FONT CHANGING IN GITHUB THIS ISNT SUPPOSED TO BE HAPPENING AHHHHHHHHHHHHH */
 @font-face{
     font-family:'bavista';
     src:url('fonts/Bavista_Soulare.otf') /*format('truetype');*/;
@@ -26,7 +26,7 @@ body {
 
 /*
  *
- * HEADER
+ * HEADER 
  *
  */
 
