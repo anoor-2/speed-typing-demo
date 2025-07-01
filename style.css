@@ -2,7 +2,7 @@
 * {
     margin: 0;
 }
-
+@import url('fonts/Bavista_Soulare.ttf/css2?family=bavista&display=swap');
 /* WHY IS MY FONT CHANGING IN GITHUB THIS ISNT SUPPOSED TO BE HAPPENING AHHHHHHHHHHHHH */
 @font-face{
     font-family:'bavista';
